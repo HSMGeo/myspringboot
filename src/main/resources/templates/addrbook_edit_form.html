@@ -23,9 +23,9 @@
 <H2>주소록:수정화면 </H2>
 <HR>
 [<a href="addrbook_list.do">주소록 목록으로</a>] <p>
-<form name=form1 method=post action="update.do">
-<input type=hidden name="abId" value="${ab.abId}">
-<input type=hidden name="action" value="update">
+<form name=form1 method=post th:action="update.do">
+<input type=hidden name="abId" th:value="${ab.abId}">
+<input type=hidden name="action" th:value="update">
 
 <table border="1">
   <tr>
