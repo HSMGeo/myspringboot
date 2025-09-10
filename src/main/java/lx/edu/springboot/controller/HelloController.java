@@ -20,4 +20,7 @@ public class HelloController {
 		model.addAttribute("vo", vo);
 		return "hello";
 	}
+	public void hsn() {
+		
+	}
 }
